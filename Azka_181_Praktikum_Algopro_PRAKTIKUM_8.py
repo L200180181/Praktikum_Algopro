@@ -22,7 +22,7 @@ N menampilkan NIM
 n menampilkan Nama
 A menampilkan Alamat
 K menampilkan kodepos
-T menampilkan Tanggal lahir
+T menampilkan TTL
 t menampilkan Tinggi badan
 B menampilkan Berat badan
 k keluar\n"""
@@ -34,7 +34,7 @@ def alamat():
     print 'Alamat: '+x['Alamat']
 def kodepos():
     print 'Kodepos: '+x['Kodepos']
-def tlahir():
+def TTL():
     print 'TTL: '+x['TTL']
 def tbadan():
     print 'Tinggi badan: '+x['Tinggi badan']
@@ -60,7 +60,7 @@ while data != 'k':
         kodepos ()
         data = raw_input("Pilihan saudara: ")
     elif data == 'T':
-        tlahir ()
+        TTL ()
         data = raw_input("Pilihan saudara: ")
     elif data == 't':
         tbadan ()
